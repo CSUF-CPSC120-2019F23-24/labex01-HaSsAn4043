@@ -6,9 +6,9 @@ int main()
 {
   double hours, rate, pay;
 
-  // Get the number of samples sold.
-  std::cout << "How many samples did you sell? ";
-  std::cin >> samples;
+  // Get the number of hours worked.
+  std::cout << "How many candy bars did you sell? ";
+  std::cin >> hours;
 
   // Get the hourly pay rate.
   std::cout << "How much does the organization earn for each bar sold? ";
