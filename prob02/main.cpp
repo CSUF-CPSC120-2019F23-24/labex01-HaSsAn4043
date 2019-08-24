@@ -4,7 +4,7 @@
 
 int main()
 {
-  double hours, rate, pay;
+  double samples, rate, pay;
 
   // Get the number of samples sold.
   std::cout << "How many samples did you sell? ";
