@@ -4,7 +4,7 @@
 
 int main()
 {
-  double samples, rate, pay;
+  double hours, rate, pay;
 
   // Get the number of samples sold.
   std::cout << "How many samples did you sell? ";
@@ -15,7 +15,7 @@ int main()
   std::cin >> rate;
 
   // Calculate the pay.
-  pay = samples * rate;
+  pay = hours * rate;
 
   // Display the pay.
   std::cout << "You have earned $" << pay << std::endl;
